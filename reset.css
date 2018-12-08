@@ -1,4 +1,4 @@
-/* reset */
+
 
 html,body,div,span,iframe,h1,h2,h3,h4,h5,h6,p,pre,a,em,img,var,nav ul,nav li,footer,header,menu,nav{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
 footer, header, menu, nav{display: block;}
@@ -20,5 +20,3 @@ a{text-decoration:none;}
 nav.vertical ul li{	display:block;}/* vertical menu */
 nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
 img{max-width:100%;}
-
-/*end reset*/

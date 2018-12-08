@@ -608,33 +608,11 @@ li.rss a span:hover{
 }
 
 
-
-/*--responsive design--*/
-/* @media (max-width:1366px){
-	.wrap{
-		width:90%;
-	}
-	.cssmenu {
-		width: 48.5%;
-	}
-	.nbs-flexisel-nav-left{
-		left:-40px;
-	}
-	.nbs-flexisel-nav-right{
-		right:-40px;
-	}
-	ul.twt {
-		width:91%;
-	}
-	.plans {
-		margin-top: -161px;
-	}
-} */
-
 @media (max-width:768px){
 	.wrap{
 		width:90%;
 	}
+
 	.cssmenu {
 		width: 58.5%;
 		margin-top: 13px;
@@ -683,10 +661,10 @@ li.rss a span:hover{
 		line-height:2.5em;
 	}
 	.span_1_of_4 h3 {
-		font-size: 1.2em;
+		font-size: 1em;
 	}
 	.span_1_of_4 h4 {
-		font-size: 12px;
+		font-size: 10px;
 	}
 	.planContainer .title1 h3 {
 		font-size: 1.2em;
@@ -700,13 +678,16 @@ li.rss a span:hover{
 	span.bg2 {
 		font-size: 12px;
 	}
-	.nbs-flexisel-item > img {
-		max-width:150px;
-		max-height:150px;
+
+	.planContainer .title h2.bestPlanTitle {
+		background:#fff;
+		font-size:1.2em;
+		padding:5% 0;
+		border-bottom: 2px ridge #FFF;
 	}
-	.nbs-flexisel-item p a{
-	  font-size:12px;
-	}
+
+
+
 	.planContainer .options li {
 		font-size:12px;
 	}
