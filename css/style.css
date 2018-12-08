@@ -1,10 +1,25 @@
 
+@font-face {
+	font-family: 'bariol_regular';
+	src: url('../fonts/bariol_regular-webfont.eot');
+	src: url('../fonts/bariol_regular-webfont.woff') format('woff'),
+			 url('../fonts/bariol_regular-webfont.woff2') format('woff2'),
+			 url('../fonts/bariol_regular-webfont.ttf') format('truetype');;
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+*{
+	
+	font-family: 'bariol_regular';
+} 
+
 
 
 body{
 	background:#fff;
 }
-
 .clearfix::before,
 .clearfix:after{
 	content: "";
@@ -130,7 +145,7 @@ body{
 	overflow: hidden;
 } */
 
-/* .mainSlider .example1{
+/* .mainSlider .firstOne{
 	width:  1250px;
 	height: 551px;
 
@@ -285,7 +300,9 @@ span.follow{
 #secondSlider li{
 	margin-left: 2.5%;
 	margin-right: 2.5%;
+	padding-bottom: 4px;
 	display: inline-block;
+	text-align: center;
 }
 
 
@@ -617,15 +634,22 @@ li.rss a span:hover{
 		width: 58.5%;
 		margin-top: 13px;
 	}
+	#secondSlider {
+		padding-left:17%;
+		list-style: none;
+		/* width: 100%; */
+	}
+
 	.plans {
 		margin-top:-91px;
 	}
+/* 	
 	.nbs-flexisel-nav-left{
 		left:-30px;
 	}
 	.nbs-flexisel-nav-right{
 		right:-30px;
-	}
+	} */
 	ul.twt {
 		width:100%;
 		padding:0;
