@@ -42,8 +42,6 @@ body{
 }
 .cssmenu {
 	margin-top:22px;
-	/* margin-right: -20px; */
-	/* margin-right:0%; */
 	position: relative;
 	width: 46.5%;
 	float: right;
@@ -136,16 +134,6 @@ body{
 							}
 
 
-/* .mainSlider {
-	position: relative;
-	overflow: hidden;
-} */
-
-/* .mainSlider .firstOne{
-	width:  1250px;
-	height: 551px;
-
-} */
 
 .mainSliderPrev, .mainSliderNext {
 	position: absolute;
@@ -433,7 +421,6 @@ h4 small{
 	display: inline-block;
 	font-size: 1.2em;
 	outline: none;
-		transition: all 0.3s;
 	background: #FFF;
 	margin-top: 10px;
 }
@@ -525,20 +512,25 @@ li.rss a span {
 li.rss a span:hover{
 	background: url(../images/img-sprite.png)no-repeat -77px -139px #333;
 }
-/* 
-#toTop {
-	display: none;
-	text-decoration: none;
-	position: fixed;
-	bottom: 10px;
-	right: 10px;
-	overflow: hidden;
-	width: 32px;
-	height: 32px;
-	border: none;
-	text-indent: 100%;
-	background: url(../../images/top-move.png) no-repeat right top;
-} */
+
+.map{
+  position:  relative; 
+  align-content: center;
+}
+.contact  {
+  position: absolute;
+  top: 20%; 
+  background: black; 
+  color: white;
+  width:40%;
+  opacity: 0.5;
+  margin-left: 25%;
+}
+
+.contact-text ul li {
+  color: #e13d2f;
+}
+
 @media only screen and ( max-width: 40em ) /* 640 */
 {
  #nav
