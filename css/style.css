@@ -289,6 +289,13 @@ span.follow{
 	text-align: center;
 }
 
+#secondSlider p{
+	font-weight: bold;
+	}
+
+#secondSlider a{
+	color: black;
+}
 
 
 .middle-bottom{
@@ -631,13 +638,7 @@ li.rss a span:hover{
 	.plans {
 		margin-top:-91px;
 	}
-/* 	
-	.nbs-flexisel-nav-left{
-		left:-30px;
-	}
-	.nbs-flexisel-nav-right{
-		right:-30px;
-	} */
+
 	ul.twt {
 		width:100%;
 		padding:0;
@@ -648,6 +649,10 @@ li.rss a span:hover{
 	}
 	#nav > ul > li > a {
 		font-size:0.8125em;
+	}
+
+	.col_1_of_4 img{
+		max-width: 70%;
 	}
 	
 	h1.m_1 {
@@ -740,12 +745,7 @@ li.rss a span:hover{
 	#nav > ul > li {
 		margin:-10px 15px;
 	}
-	.nbs-flexisel-nav-left{
-		left:0px;
-	}
-	.nbs-flexisel-nav-right{
-		right:0px;
-	}
+
 	ul.twt {
 		width:100%;
 		padding:0;
