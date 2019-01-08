@@ -1,7 +1,6 @@
 .container-wrapper {
   width: 80%;
   height: 600px;
-  /* padding-bottom: 40%; */
   overflow: hidden;
   position: relative;
   margin: 75px auto ;
@@ -64,7 +63,7 @@
 }
 
 
- 
+
 @media only screen and (min-width:480px){
   .container-wrapper{
     width:80%;
@@ -82,4 +81,4 @@
     width:80%;
     /* padding-bottom:40%; */
   }
-} 
+}

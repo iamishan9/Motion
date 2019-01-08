@@ -13,7 +13,15 @@
 		padding-left:17%;
 		list-style: none;
 		/* width: 100%; */
-	}
+  }
+
+  .larrow{
+    display: none;
+  }
+
+  .rarrow{
+    display: none;
+  }
 
 	.plans {
 		margin-top:-91px;
@@ -185,7 +193,18 @@
 		align-content:center;
 		list-style: none;
 		/* width: 100%; */
-	}
+  }
+  #secondSlider li {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .larrow{
+    display: none;
+  }
+
+  .rarrow{
+    display: none;
+  }
 
 	.plans {
 		margin-top:-104px;
