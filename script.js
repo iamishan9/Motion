@@ -58,14 +58,14 @@ function Carousel(element) {
 	}
 
 	function sliderStyler() {
-		slider.style.width = (imageNumber * width) + 'px';
+		// slider.style.width = (imageNumber * width) + 'px';
 	}
 
 	function imgStyler() {
-		for (var i = 0; i < imageNumber; i++) {
-			images[i].style.height = height + 'px';
-			images[i].style.width = width + 'px';
-		}
+		// for (var i = 0; i < imageNumber; i++) {
+		// 	images[i].style.height = height + 'px';
+		// 	images[i].style.width = width + 'px';
+		// }
 	}
 
 	function arrowStyler() {
