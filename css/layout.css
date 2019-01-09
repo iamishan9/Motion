@@ -10,9 +10,7 @@
 		margin-top: 13px;
 	}
 	#secondSlider {
-		padding-left:17%;
 		list-style: none;
-		/* width: 100%; */
   }
 
   .larrow{
@@ -113,7 +111,16 @@
 }
 @media only screen and ( max-width: 40em )
 {
-#nav
+
+}
+
+
+
+
+@media (max-width:480px){
+
+
+  #nav
 {
 position: relative;
 top: auto;
@@ -190,12 +197,9 @@ position: static;
 padding: 1.25em; /* 20 */
 padding-top: 0;
 }
-}
 
 
-
-
-@media (max-width:480px){
+/*=============================================================================================================================*/
 	.wrap{
 		width:90%;
   }
@@ -288,11 +292,6 @@ padding-top: 0;
 	#secondSlider {
 		align-content:center;
 		list-style: none;
-		/* width: 100%; */
-  }
-  #secondSlider li {
-    margin-left: auto;
-    margin-right: auto;
   }
   .larrow{
     display: none;

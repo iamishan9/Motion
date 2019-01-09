@@ -302,7 +302,8 @@ span.follow{
 
 
 #secondSlider {
-	padding-left:8%;
+  /* padding-left:8%; */
+  text-align: center;
 	list-style: none;
 	/* width: 100%; */
 }
@@ -572,12 +573,14 @@ li.rss a span:hover{
 }
 .contact-header{
   font-size: 2em;
-  padding-left: 35%;
+  /* padding-left: 35%; */
+text-align: center;
   padding-top: 2%;
 }
 .contact-text ul li {
   padding-top: 2%;
-  padding-left: 35%;
+  /* padding-left: 35%; */
+  text-align: center;
   color: #EB504E;
 }
 
