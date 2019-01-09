@@ -1,6 +1,11 @@
+/* @media (min-width:768px){
+  .cssmenu {
+    width: 58.5%;
+    margin-top: 13px;
+  }
+} */
 
-
-@media (max-width:768px){
+@media (min-width:768px){
 	.wrap{
 		width:90%;
 	}
@@ -85,7 +90,7 @@
 	.planContainer .title h2.bestPlanTitle {
 		background:#fff;
 		font-size:1.2em;
-		padding:5% 0;
+		padding:7.5% 0;
 		border-bottom: 2px ridge #FFF;
 	}
 
@@ -110,8 +115,7 @@
 	}
 }
 
-@media (max-width:480px){
-
+@media (max-width:767px){
 
   #nav
 {
